@@ -1,0 +1,9 @@
+h3,h4,h5,h6{
+    font-size: large;
+    color: black;
+    text-align: center;}
+        body{background:black;}
+        header{
+            color: blue;
+            text-align: end; }
+    

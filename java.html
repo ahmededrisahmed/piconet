@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script Language="JavaScript">
+    function welcme() {
+        var nName
+        nName = prompt("Enter your name");
+        alert("Hello world " + nName);
+    }
+
+    function bclr() {
+        document.bgColor = document.form1.D1.options[document.form1.D1.selectedIndex].value;
+    }
+
+    function bclr() {
+        document.bgColor = document.form1.D1.options[document.form1.D1.selectedIndex].value;
+    }
+
+    function bclr() {
+        document.bgColor = document.form1.D1.options[document.form1.D1.selectedIndex].value;
+    }
+
+    currenttime = new Date();
+    if (currenttime.getHours() < 12)
+        alert("صباح الخير ");
+    else if (currenttime.getHours() < 18)
+        alert("مساء الخير ");
+    else
+        alert("عمت مساء ");
+    confirm("هل انت متاكد من انك تريد الدخول الى هذا الموقع");
+</script>
+
+<body>
+    غير الخلفية اذا كنت تريد ذالك
+    <br>
+    <br>
+    <br>
+    <form method="post" name="form1">
+        <select size="1" name="D1" onchange="bclr();">
+            <option selected> اختر لون</option>
+            <option value="yellow"> الاصفر</option>
+            <option value="green"> اخضر</option>
+            <option value="red"> الاحمر </option>
+            <option value="blue" onclick="bclr()"> الازرق</option>
+        </select>
+    </form>
+    <marquee behavior="" direction=""></marquee>
+    <input type="button" value="الرجاء التاكد من اسم المستخدم" name,password="b3" onclick="welcme();">
+
+    <br>
+    <br>
+    <a href="form.html"> ok</a>
+
+</body>
+
+</html>

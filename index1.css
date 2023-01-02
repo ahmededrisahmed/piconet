@@ -1,0 +1,25 @@
+body{background-color: black;font-size: large;text-align: right;}
+ h3,h4,h5,h6{
+    font-size: large;
+    font-weight: 100;
+    color: rgb(154, 154, 189);
+    text-align: center;
+ 
+ }
+ h1,h2{
+     color: blueviolet;
+     text-align: center;
+     background-color: cornsilk;
+ }
+ header{
+     color:blue;
+     text-align: end;
+ }
+ p{
+     color:blueviolet;
+     text-align: center;
+ }
+ img{
+     width: 40px;
+     height: 40px;
+ }

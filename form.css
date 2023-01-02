@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(145, 121, 121);
+}
+h3,h4,h5,h6{
+    font-size: large;
+    font-weight: 100px;
+    color: rgb(154, 154, 189);
+    text-align: center;
+}
+form{
+    text-align: center;
+}
+p{
+    font-size: large;
+}
+header{
+color: blue;
+text-align: end;
+}
